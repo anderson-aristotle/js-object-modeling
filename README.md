@@ -1,6 +1,6 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# JS Objects Modeling
+# JS Object Modeling
 
 ## Prerequisites
 
@@ -17,7 +17,7 @@
 ## Preparation
 
 1.  Fork and clone this repository.
- [FAQ](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone)
+ [FAQ](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone)
 1.  Create a new branch, `training`, for your work.
 1.  Checkout to the `training` branch.
 1.  Install dependencies with `npm install`.
@@ -36,7 +36,7 @@ precipitation, 4 degree windchill...
 <!-- Stop & Jot -->
 Why do you think that might be?
 
-When you take something complex and then hide that complexity under a more simple interface, you are using a technique called **abstraction**. 
+When you take something complex and then hide that complexity under a more simple interface, you are using a technique called **abstraction**.
 
 From [wikipedia](https://en.wikipedia.org/wiki/Abstraction_(software_engineering)): In software engineering and computer science, abstraction is a technique for arranging complexity of computer systems. It works by establishing a level of complexity on which a person interacts with the system, suppressing the more complex details below the current level.
 
@@ -46,11 +46,11 @@ From [wikipedia](https://en.wikipedia.org/wiki/Abstraction_(software_engineering
 <summary>How might abstraction be relevant as software developers? Take a
 minute and discuss this with your squad.</summary>
 
-We can use abstraction to represent real-world entities when we write software. This allows us to hide complex systems underneath easy to grasp objects and models. 
+We can use abstraction to represent real-world entities when we write software. This allows us to hide complex systems underneath easy to grasp objects and models.
 </details>
 
 <br />
-Think about the weather report that you are given by the weather lady. She gives you the temperature in your city, if it's going to rain or snow, level of precipitation, and the wind speed. This model of the weather system hides the complexity that is behind these measurements. 
+Think about the weather report that you are given by the weather lady. She gives you the temperature in your city, if it's going to rain or snow, level of precipitation, and the wind speed. This model of the weather system hides the complexity that is behind these measurements.
 
 A **model** is a simplified or partial representation of the real thing. Models are based on a real entity, and are used to represent the real entity in a system. Modeling is great for planning, designing, discussing, and understanding a system.
 
