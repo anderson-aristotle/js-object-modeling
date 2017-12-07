@@ -12,7 +12,7 @@
 -   Model real-world entities.
 -   Compare entity traits with entity behavior.
 -   Implement these models with JavaScript objects.
--   Compare attribute properties and method properties.
+-   Contrast the definitions of "property", "attribute", and "method"
 
 ## Preparation
 
