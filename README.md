@@ -86,9 +86,8 @@ we'll talk about in more depth as we introduce the first project.
 
 ### Lab: Brainstorm
 
-In your teams, pick one of the following examples and individually brainstorm
-about abstractions and models you might use. Once you're done, discuss your
-answers as a team.
+In your teams, brainstorm abstractions and models you might use for your
+assigned example.
 
 - Reporting software that analyzes the performance of different members of a
   sales team.
