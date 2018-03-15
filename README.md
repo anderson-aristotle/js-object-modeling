@@ -48,15 +48,15 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Abstraction_(software_engineering
 <!-- Think-Pair-Share -->
 
 <details>
-<summary>How might abstraction be relevant as software developers? Take a
-minute and discuss this with your team.</summary>
+  <summary>How might abstraction be relevant as software developers? Take a
+  minute and discuss this with your team.</summary>
 
-We can use abstraction to represent real-world entities when we write software.
-This allows us to hide complex systems underneath easy to grasp objects and
-models.
+  We can use abstraction to represent real-world entities when we write software.
+  This allows us to hide complex systems underneath easy to grasp objects and
+  models.
 </details>
-
 <br />
+
 Think about the weather report that you are given by the weather lady. She gives
 you the temperature in your city, if it's going to rain or snow, level of
 precipitation, and the wind speed. This model of the weather system hides the
@@ -158,21 +158,23 @@ getting shorter as they get used.
 - Let's do a quick refresher on object dot notation:
 
   <details>
-  <summary>What do we write if we want to access a crayon's <code>color</code>
-  property?</summary>
-  we can
-  write <code>crayon.color</code>.
+    <summary>What do we write if we want to access a crayon's <code>color</code>
+    property?</summary>
+    we can
+    write <code>crayon.color</code>.
   </details>
   <br />
-  <details><summary>Similarly, if we want to access the <i>function stored inside</i>
-  the <code>getUsedUp</code> property, what can we write? </summary>
-  we can write <code>crayon.getUsedUp</code>.
+  <details>
+    <summary>Similarly, if we want to access the <i>function stored inside</i>
+    the <code>getUsedUp</code> property, what can we write? </summary>
+    we can write <code>crayon.getUsedUp</code>.
   </details>
   <br />
-  <details><summary>Lastly, if we want to
-  treat that function as a method and invoke it from the object, what can we write?</summary>
-  we can write
-  <code>crayon.getUsedUp()</code>.
+  <details>
+    <summary>Lastly, if we want to
+    treat that function as a method and invoke it from the object, what can we write?</summary>
+    we can write
+    <code>crayon.getUsedUp()</code>.
   </details>
   <br />
 
