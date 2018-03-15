@@ -80,3 +80,5 @@ jspm_packages
 .yarn-integrity
 # End of https://www.gitignore.io/api/node
 *.bak
+# Environmental variables
+.env
