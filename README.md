@@ -12,7 +12,7 @@
 - Model real-world entities.
 - Compare entity traits with entity behavior.
 - Implement these models with JavaScript objects.
-- Contrast the definitions of "property", "attribute", and "method"
+- Contrast the definitions of "property", "attribute", and "method".
 
 ## Preparation
 
@@ -28,7 +28,7 @@ The world is full of complex systems. Take weather, for example.
 
 ![Weather Forecast](https://upload.wikimedia.org/wikipedia/commons/c/c0/NOAA_Wavewatch_III_Sample_Forecast.gif)
 
-There's a ton of information we could record about the weather. Yet when you
+There's a ton of information we could record about the weather. Yet, when you
 read the weather report in the morning, all of that information is distilled
 down to a handful of numbers: 34 degrees fahrenheit, 20% chance of
 precipitation, 4 degree windchill...
@@ -121,7 +121,7 @@ const crayons = ['blue', 'green', 'orange', 'yellow']
 
 <!-- end code block -->
 
-- Note that we're also abstracting away each crayon as a String - at the moment,
+  - Note that we're also abstracting away each crayon as a String - at the moment,
   we're only interested in their colors.
 
 Most of the time, though, what we want to model has **multiple attributes**,
@@ -201,21 +201,21 @@ _more on `this` later_
 
 ### Code Along: Television
 
-Now let's consider how we might model a TV. For this example, let's assume that
+Now, let's consider how we might model a TV. For this example, let's assume that
 we're only concerned with using the TV, not selling it or anything like that.
 
 When we interact with a TV, there's a short list of things that we typically do:
 
-- turn it on/off (toggle power)
-- increase or decrease the volume
-- increase or decrease the channel
+- Turn it on/off (toggle power).
+- Increase or decrease the volume.
+- Increase or decrease the channel.
 
 In addition, there are a number of other features of the TV that might interest
 us:
 
-- is it a plasma/LCD/LED TV?
-- what's the resolution?
-- how much power does it consume?
+- Is it a plasma/LCD/LED TV?
+- What's the resolution?
+- How much power does it consume?
 
 How could we model this in JavaScript? In your squads, take ten minutes and
 write out a JavaScript object that represents all of the features and behaviors
@@ -248,15 +248,15 @@ An ingredient must have:
 
 Additionally, as a bonus, the recipe should be able to:
 
-- print a list of its ingredients, in the following format:
+- Print a list of its ingredients, in the following format:
 
-> 1 cup of flour
->
-> 2 tablespoons of butter
->
-> ...
+  > 1 cup of flour
+  >
+  > 2 tablespoons of butter
+  >
+  > ...
 
-- indicate whether the user needs to buy more ingredients, or whether the recipe
+- Indicate whether the user needs to buy more ingredients, or whether the recipe
   can be prepared as-is
 
 How could we actually implement this in JavaScript? In your squads, try to come
