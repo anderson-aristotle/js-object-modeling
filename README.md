@@ -49,7 +49,7 @@ system, suppressing the more complex details below the current level.
 
 <details>
 <summary>How might abstraction be relevant as software developers? Take a
-minute and discuss this with your squad.</summary>
+minute and discuss this with your team.</summary>
 
 We can use abstraction to represent real-world entities when we write software.
 This allows us to hide complex systems underneath easy to grasp objects and
@@ -86,9 +86,9 @@ we'll talk about in more depth as we introduce the first project.
 
 ### Lab: Brainstorm
 
-In your squads, pick one of the following examples and individually brainstorm
+In your teams, pick one of the following examples and individually brainstorm
 about abstractions and models you might use. Once you're done, discuss your
-answers as a squad.
+answers as a team.
 
 - Reporting software that analyzes the performance of different members of a
   sales team.
@@ -217,7 +217,7 @@ us:
 - What's the resolution?
 - How much power does it consume?
 
-How could we model this in JavaScript? In your squads, take ten minutes and
+How could we model this in JavaScript? In your teams, take ten minutes and
 write out a JavaScript object that represents all of the features and behaviors
 of a TV listed above.
 
@@ -259,7 +259,7 @@ Additionally, as a bonus, the recipe should be able to:
 - Indicate whether the user needs to buy more ingredients, or whether the recipe
   can be prepared as-is
 
-How could we actually implement this in JavaScript? In your squads, try to come
+How could we actually implement this in JavaScript? In your teams, try to come
 up with a way to represent the abstractions given above using the tools we've
 learned about so far (basic types like numbers, strings, and booleans; reference
 types like arrays, objects, and functions). When you finish, we'll discuss our
