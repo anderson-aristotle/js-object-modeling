@@ -223,6 +223,11 @@ object that represents all of the features and behaviors of a TV listed above.
 
 ### Lab: Modeling in JavaScript
 
+Individually or in teams,
+try to come up with a way to represent the abstractions given below using the
+tools we've learned about so far (basic types like numbers, strings, and
+booleans; reference types like arrays, objects, and functions).
+
 Say we are building a recipe website. Suppose that after careful research, we've
 determined that the following things must be true about the application.
 
@@ -258,12 +263,6 @@ Additionally, as a bonus, the recipe should be able to:
 
 - Indicate whether the user needs to buy more ingredients, or whether the recipe
   can be prepared as-is
-
-How could we actually implement this in JavaScript? In your teams, try to come
-up with a way to represent the abstractions given above using the tools we've
-learned about so far (basic types like numbers, strings, and booleans; reference
-types like arrays, objects, and functions). When you finish, we'll discuss our
-answers as a class.
 
 ## Summary
 
