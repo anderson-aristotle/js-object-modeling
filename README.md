@@ -39,11 +39,11 @@ Why do you think that might be?
 When you take something complex and then hide that complexity under a more
 simple interface, you are using a technique called **abstraction**.
 
-From [Wikipedia](https://en.wikipedia.org/wiki/Abstraction_(software_engineering))
-: In software engineering and computer science,
-abstraction is a technique for arranging complexity of computer systems. It
-works by establishing a level of complexity on which a person interacts with the
-system, suppressing the more complex details below the current level.
+From [Wikipedia](https://en.wikipedia.org/wiki/Abstraction_(software_engineering)):
+> In software engineering and computer science,
+> abstraction is a technique for arranging complexity of computer systems. It
+> works by establishing a level of complexity on which a person interacts with the
+> system, suppressing the more complex details below the current level.
 
 <!-- Think-Pair-Share -->
 
