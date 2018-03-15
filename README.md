@@ -218,9 +218,8 @@ us:
 - What's the resolution?
 - How much power does it consume?
 
-How could we model this in JavaScript? In your teams, take ten minutes and
-write out a JavaScript object that represents all of the features and behaviors
-of a TV listed above.
+How could we model this in JavaScript? Together, we'll write out a JavaScript
+object that represents all of the features and behaviors of a TV listed above.
 
 ### Lab: Modeling in JavaScript
 
