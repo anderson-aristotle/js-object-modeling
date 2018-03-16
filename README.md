@@ -200,8 +200,12 @@ _more on `this` later_
 
 ### Code Along: Television
 
-Now, let's consider how we might model a TV. For this example, let's assume that
-we're only concerned with using the TV, not selling it or anything like that.
+Now, let's consider how we might model a TV. How could we do this in JavaScript?
+Together, we'll write out a JavaScript object that represents all of the
+features and behaviors of a TV listed below.
+
+Let's assume that we're only concerned with using the TV, not selling it or
+anything like that.
 
 When we interact with a TV, there's a short list of things that we typically do:
 
@@ -215,9 +219,6 @@ us:
 - Is it a plasma/LCD/LED TV?
 - What's the resolution?
 - How much power does it consume?
-
-How could we model this in JavaScript? Together, we'll write out a JavaScript
-object that represents all of the features and behaviors of a TV listed above.
 
 ### Lab: Modeling in JavaScript
 
