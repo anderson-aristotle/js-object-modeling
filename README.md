@@ -159,21 +159,19 @@ getting shorter as they get used.
   <details>
     <summary>What do we write if we want to access a crayon's <code>color</code>
     property?</summary>
-    we can
-    write <code>crayon.color</code>.
+    <code>crayon.color</code>
   </details>
   <br />
   <details>
     <summary>Similarly, if we want to access the <i>function stored inside</i>
     the <code>getUsedUp</code> property, what can we write? </summary>
-    we can write <code>crayon.getUsedUp</code>.
+    <code>crayon.getUsedUp</code>
   </details>
   <br />
   <details>
     <summary>Lastly, if we want to
     treat that function as a method and invoke it from the object, what can we write?</summary>
-    we can write
-    <code>crayon.getUsedUp()</code>.
+    <code>crayon.getUsedUp()</code>
   </details>
   <br />
 
