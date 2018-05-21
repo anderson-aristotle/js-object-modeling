@@ -119,9 +119,8 @@ const crayons = ['blue', 'green', 'orange', 'yellow']
 ```
 
 <!-- end code block -->
-
-  - Note that we're also abstracting away each crayon as a String - at the moment,
-  we're only interested in their colors.
+- Note that we're also abstracting away each crayon as a String - at the
+  moment, we're only interested in their colors.
 
 Most of the time, though, what we want to model has **multiple attributes**,
 often of different types: for instance, a car might have a make (String), model
@@ -157,21 +156,21 @@ getting shorter as they get used.
 - Let's do a quick refresher on object dot notation:
 
   <details>
-    <summary>What do we write if we want to access a crayon's <code>color</code>
+    <summary>What do we write if we want to access a crayon's `color`
     property?</summary>
-    <code>crayon.color</code>
+    `crayon.color`
   </details>
   <br />
   <details>
-    <summary>Similarly, if we want to access the <i>function stored inside</i>
+    <summary>Similarly, if we want to access the _function stored inside_
     the <code>getUsedUp</code> property, what can we write? </summary>
-    <code>crayon.getUsedUp</code>
+    `crayon.getUsedUp`
   </details>
   <br />
   <details>
     <summary>Lastly, if we want to
     treat that function as a method and invoke it from the object, what can we write?</summary>
-    <code>crayon.getUsedUp()</code>
+    `crayon.getUsedUp()`
   </details>
   <br />
 
