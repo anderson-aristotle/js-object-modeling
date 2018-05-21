@@ -4,8 +4,8 @@
 
 ## Prerequisites
 
-- Defining and calling functions
-- Dot syntax for JavaScript objects
+- [ga-wdi-boston/js](https://git.generalassemb.ly/ga-wdi-boston/js)
+- [ga-wdi-boston/js-reference-types](https://git.generalassemb.ly/ga-wdi-boston/js-reference-types)
 
 ## Objectives
 
