@@ -57,7 +57,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Abstraction_(software_engineering
 </details>
 <br />
 
-Think about the weather report that you are given by the weather lady. She gives
+Think about the weather report that you are given by the weather person. They give
 you the temperature in your city, if it's going to rain or snow, level of
 precipitation, and the wind speed. This model of the weather system hides the
 complexity that is behind these measurements.
@@ -175,9 +175,7 @@ getting shorter as they get used.
   <br />
 
 Back to our car example. We have a method, `addMileage`, which adjusts the
-`mileage` property of our `car` object. Instead of using the object's name in
-the dot notation, we can use a special keyword that helps us alter properties of
-an object:
+`mileage` property of our `car` object.
 
 <!-- start code block file="lib/car.js" -->
 
@@ -188,14 +186,12 @@ const car = {
   releaseYear: 1992,
   mileage: 78062,
   addMileage: function () {
-    this.mileage += 50
+    car.mileage += 50
   }
 }
 ```
 
 <!-- end code block -->
-
-_more on `this` later_
 
 ### Code Along: Television
 
@@ -259,8 +255,7 @@ Additionally, as a bonus, the recipe should be able to:
   >
   > ...
 
-- Indicate whether the user needs to buy more ingredients, or whether the recipe
-  can be prepared as-is
+- Indicate whether the user needs to buy more ingredients, or whether the recipe can be prepared as-is
 
 ## Summary
 
