@@ -4,8 +4,8 @@
 
 ## Prerequisites
 
-- Defining and calling functions
-- Dot syntax for JavaScript objects
+- [ga-wdi-boston/js](https://git.generalassemb.ly/ga-wdi-boston/js)
+- [ga-wdi-boston/js-reference-types](https://git.generalassemb.ly/ga-wdi-boston/js-reference-types)
 
 ## Objectives
 
@@ -57,7 +57,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Abstraction_(software_engineering
 </details>
 <br />
 
-Think about the weather report that you are given by the weather lady. She gives
+Think about the weather report that you are given by the weather person. They give
 you the temperature in your city, if it's going to rain or snow, level of
 precipitation, and the wind speed. This model of the weather system hides the
 complexity that is behind these measurements.
@@ -119,9 +119,8 @@ const crayons = ['blue', 'green', 'orange', 'yellow']
 ```
 
 <!-- end code block -->
-
-  - Note that we're also abstracting away each crayon as a String - at the moment,
-  we're only interested in their colors.
+- Note that we're also abstracting away each crayon as a String - at the
+  moment, we're only interested in their colors.
 
 Most of the time, though, what we want to model has **multiple attributes**,
 often of different types: for instance, a car might have a make (String), model
@@ -157,28 +156,26 @@ getting shorter as they get used.
 - Let's do a quick refresher on object dot notation:
 
   <details>
-    <summary>What do we write if we want to access a crayon's <code>color</code>
+    <summary>What do we write if we want to access a crayon's `color`
     property?</summary>
-    <code>crayon.color</code>
+    `crayon.color`
   </details>
   <br />
   <details>
-    <summary>Similarly, if we want to access the <i>function stored inside</i>
+    <summary>Similarly, if we want to access the _function stored inside_
     the <code>getUsedUp</code> property, what can we write? </summary>
-    <code>crayon.getUsedUp</code>
+    `crayon.getUsedUp`
   </details>
   <br />
   <details>
     <summary>Lastly, if we want to
     treat that function as a method and invoke it from the object, what can we write?</summary>
-    <code>crayon.getUsedUp()</code>
+    `crayon.getUsedUp()`
   </details>
   <br />
 
 Back to our car example. We have a method, `addMileage`, which adjusts the
-`mileage` property of our `car` object. Instead of using the object's name in
-the dot notation, we can use a special keyword that helps us alter properties of
-an object:
+`mileage` property of our `car` object.
 
 <!-- start code block file="lib/car.js" -->
 
@@ -189,14 +186,12 @@ const car = {
   releaseYear: 1992,
   mileage: 78062,
   addMileage: function () {
-    this.mileage += 50
+    car.mileage += 50
   }
 }
 ```
 
 <!-- end code block -->
-
-_more on `this` later_
 
 ### Code Along: Television
 
@@ -260,8 +255,7 @@ Additionally, as a bonus, the recipe should be able to:
   >
   > ...
 
-- Indicate whether the user needs to buy more ingredients, or whether the recipe
-  can be prepared as-is
+- Indicate whether the user needs to buy more ingredients, or whether the recipe can be prepared as-is
 
 ## Summary
 

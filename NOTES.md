@@ -1,6 +1,7 @@
 Capturing these two methods of interaction from the README and moving them here:
 
 ### Stop & Jot
+
 There's a ton of information we could record about the weather. Yet when you
 read the weather report in the morning, all of that information is distilled
 down to a handful of numbers: 34 degrees fahrenheit, 20% chance of
@@ -8,7 +9,7 @@ precipitation, 4 degree windchill...
 
 Why do you think that might be?
 
-When you take something complex and then hide that complexity under a more simple interface, you are using a technique called **abstraction**. 
+When you take something complex and then hide that complexity under a more simple interface, you are using a technique called **abstraction**.
 
 From [wikipedia](https://en.wikipedia.org/wiki/Abstraction_(software_engineering)): In software engineering and computer science, abstraction is a technique for arranging complexity of computer systems. It works by establishing a level of complexity on which a person interacts with the system, suppressing the more complex details below the current level.
 
@@ -18,11 +19,11 @@ From [wikipedia](https://en.wikipedia.org/wiki/Abstraction_(software_engineering
 <summary>How might abstraction be relevant as software developers? Take a
 minute and discuss this with your squad.</summary>
 
-We can use abstraction to represent real-world entities when we write software. This allows us to hide complex systems underneath easy to grasp objects and models. 
+We can use abstraction to represent real-world entities when we write software. This allows us to hide complex systems underneath easy to grasp objects and models.
 </details>
 
 
-## Laptop abstraction and modeling 
+## Laptop abstraction and modeling
 
 jrhorn424 commented on May 18, 2016:
 
@@ -39,7 +40,7 @@ This gave us a chance to talk about encapsulation. We're hiding the "JavaScript"
 
 Next, we noted our functions were related to our laptop but we had no way of knowing that from the source code. So, we could further encapsulate our behavior by adding it to the laptop itself.
 ```js
-let laptop = { 
+let laptop = {
 /* ... */
   togglePower: function () {
 -    laptop.status === 'on' ? 'off' : 'on';
@@ -57,3 +58,11 @@ I spent a good amount of time on javascript review during the Demo: Modeling in 
 Since I spent more time on the JS review and on the TV lab, I did not have time for the final recipe website lab. The students worked on this during the workshop
 
 To cut down on the time I spent, I would be more aware of how much time is spent on review, explanation of future topics like `this`, different ways to create and inspect JS objects, and tabling questions that aren't directly on topic.
+
+## Whiteboard Images
+
+![](https://git.generalassemb.ly/storage/user/3667/files/6c3641aa-2b66-11e8-896b-f098994e1098)
+
+![](https://git.generalassemb.ly/storage/user/3667/files/71a77ab4-2b66-11e8-9ad8-f9eab6372962)
+
+![](https://git.generalassemb.ly/storage/user/3667/files/72444948-2b66-11e8-99e8-6743a464bf70)

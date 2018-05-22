@@ -78,7 +78,7 @@ jspm_packages
 *.tgz
 # Yarn Integrity file
 .yarn-integrity
-# End of https://www.gitignore.io/api/node
-*.bak
 # Environmental variables
 .env
+# End of https://www.gitignore.io/api/node
+*.bak
