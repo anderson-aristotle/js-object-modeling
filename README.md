@@ -33,7 +33,6 @@ read the weather report in the morning, all of that information is distilled
 down to a handful of numbers: 34 degrees fahrenheit, 20% chance of
 precipitation, 4 degree windchill...
 
-<!-- Stop & Jot -->
 Why do you think that might be?
 
 When you take something complex and then hide that complexity under a more
@@ -112,13 +111,10 @@ weather can be modeled as 'temperature' or  'inches of snow expected'. Other
 things, such as lists of similar items, are typically modeled by arrays; since
 the items are all similar, an index is sufficient to distinguish them.
 
-<!-- start code block file="lib/crayons.js" -->
-
 ```js
 const crayons = ['blue', 'green', 'orange', 'yellow']
 ```
 
-<!-- end code block -->
 - Note that we're also abstracting away each crayon as a String - at the
   moment, we're only interested in their colors.
 
@@ -134,8 +130,6 @@ for any behaviors that we might want our model to have.
 Suppose we needed to model a single crayon in JavaScript. We might come up with
 something like this:
 
-<!-- start code block file="lib/crayon.js" -->
-
 ```js
 const crayon = {
   color: 'blue',
@@ -146,7 +140,6 @@ const crayon = {
 }
 ```
 
-<!-- end code block -->
 As you can see, `crayon` has two ordinary traits, (which we call properties),
 (`color` and `lengthInCM`); these map to attributes of the crayon that
 (presumably) are relevant to our application. In addition, it also has a method
@@ -177,8 +170,6 @@ getting shorter as they get used.
 Back to our car example. We have a method, `addMileage`, which adjusts the
 `mileage` property of our `car` object.
 
-<!-- start code block file="lib/car.js" -->
-
 ```js
 const car = {
   make: 'Toyota',
@@ -190,8 +181,6 @@ const car = {
   }
 }
 ```
-
-<!-- end code block -->
 
 ### Code Along: Television
 
