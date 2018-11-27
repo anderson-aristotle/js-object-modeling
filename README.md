@@ -244,7 +244,8 @@ Additionally, as a bonus, the recipe should be able to:
   >
   > ...
 
-- Indicate whether the user needs to buy more ingredients, or whether the recipe can be prepared as-is
+- Indicate whether the user needs to buy more ingredients, or whether the
+recipe can be prepared as-is.
 
 ## Summary
 

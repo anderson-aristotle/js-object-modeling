@@ -1,5 +1,11 @@
 # Delivery Notes
 
+## Final Lab
+
+For the final lab, try to avoid using eggs as an ingredient. For some reason I
+always use eggs and then the printIngredients function says something like "1
+whole of egg".
+
 ## Whiteboard Images
 
 ![](https://git.generalassemb.ly/storage/user/3667/files/6c3641aa-2b66-11e8-896b-f098994e1098)
